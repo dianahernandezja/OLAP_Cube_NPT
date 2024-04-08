@@ -1,0 +1,117 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>OLAP_Cube_NPT</Database>
+    <Server>JAMX-LP-131</Server>
+    <ConnectionString>Data Source=JAMX-LP-131;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>OGjLeufpC1oTE25h/XDChcZoxK4=04/04/2024 01:11:49 p. m.21/03/2024 03:23:49 p. m.</TimeStamp>
+        <ID>
+          <String>Nucor Production Tracking</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>8lyliUGnBhSOUIKYRxR7tFCh3C0=04/04/2024 09:44:51 a. m.22/03/2024 08:51:18 a. m.</TimeStamp>
+        <ID>
+          <String>Nucor Production Tracking</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>sk96p4MtONZK/biA7xIp+JXs4lM=03/04/2024 04:25:35 p. m.22/03/2024 09:05:46 a. m.</TimeStamp>
+        <ID>
+          <String>PRODUCT</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>vUzdyr7r1oEUXy4GqD5ZFi2GpIY=03/04/2024 04:25:28 p. m.22/03/2024 09:09:33 a. m.</TimeStamp>
+        <ID>
+          <String>STRUCTURE</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>qSKimH718n6w/yGw3N1yCuQrOwI=22/03/2024 03:26:13 p. m.22/03/2024 09:59:55 a. m.</TimeStamp>
+        <ID>
+          <String>PRODUCTION CATEGORY</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>9nP6zFgA5XppZ7n+TZY2Kc8WRdQ=04/04/2024 06:08:04 p. m.22/03/2024 09:59:55 a. m.</TimeStamp>
+        <ID>
+          <String>PRODUCTION ORDER</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Dnsgx+1Q0EKCz3rxkoTtEBLU2cw=04/04/2024 06:05:23 p. m.22/03/2024 09:59:55 a. m.</TimeStamp>
+        <ID>
+          <String>PRODUCTION</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>vJ9MyVCPuclcdMpDjnPu+Q9ISsU=04/04/2024 09:59:39 a. m.04/04/2024 09:59:39 a. m.</TimeStamp>
+        <ID>
+          <String>HOSTNAME</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>WYbMQLPLT+/ZNNGwjeYkdl7RLYQ=04/04/2024 10:06:47 a. m.04/04/2024 10:00:34 a. m.</TimeStamp>
+        <ID>
+          <String>Hostname Type</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>TpdGvQ0BeCeZG086LYja64w/72M=04/04/2024 01:29:10 p. m.04/04/2024 01:17:22 p. m.</TimeStamp>
+        <ID>
+          <String>Product has variable</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>+xrAKZLAw7iDtxtT6gRjYQARWW4=05/04/2024 09:14:50 a. m.04/04/2024 01:23:47 p. m.</TimeStamp>
+        <ID>
+          <String>PRODUCT HAS DOCUMENT</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>NhXw3nM2TbXYMTKENC1PnBZn5Og=04/04/2024 05:50:50 p. m.22/03/2024 09:59:55 a. m.ecn5LFWwjp5RlO0sM9OkOQwPug4=22/03/2024 09:59:55 a. m.22/03/2024 09:59:55 a. m.</TimeStamp>
+        <ID>
+          <String>Nucor Production Tracking</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>SfjABxrzx6a2Bq6e9Eq09hfuDSY=21/03/2024 03:20:42 p. m.21/03/2024 03:20:42 p. m.</TimeStamp>
+      <ID>
+        <String>OLAP_Cube_NPT</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2024-04-05T15:38:59.526667Z</LastDeployed>
+</DeploymentSnapshot>
